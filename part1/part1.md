@@ -23,40 +23,40 @@
 10. logs `3`, the length of the array because it is in scope.
 11. logs `[ 50, 100, 150 ]` similar to what is described in (4.), and does not throw an error because each time an element is being assigned to `discountedPrice`, it is only being assigned one time.
 12. 
-    A. `student.name;`
-    B. `student['Grad Year'];`
-    C. `student.greeting();`
-    D. `student['Favorite Teacher'].name;`
-    E. `student.courseLoad[0];`
+    * A. `student.name;`
+    * B. `student['Grad Year'];`
+    * C. `student.greeting();`
+    * D. `student['Favorite Teacher'].name;`
+    * E. `student.courseLoad[0];`
 13. Arithmetic
-    A. '32'
+    * A. '32'
         * integers map to their exact string representation
-    B. 1
+    * B. 1
         * strings are converted to numbers when the `-` is applied to non-numbers
-    C. 3
+    * C. 3
         * `null` converts to `0` numerically
-    D. '3null'
+    * D. '3null'
         * `null` converts to the string `'null'`
-    E. 4
+    * E. 4
         * `true` converts to the numerical value `1` then is added to `3`
-    F. 0
+    * F. 0
         * `false` is converted to `0` numerically and `null` is converted to `0` as well
-    G. '3undefined'
+    * G. '3undefined'
         * `undefined` is converted to the string `'undefined'`
-    H. NaN
+    * H. NaN
         * `'3'` is converted to the numerical value `3` but the numerical value of `undefined` is `NaN` which is why the difference is `NaN`
 14. Comparison
-    A. true
+    * A. true
         * the string `'2'` becomes the number `2`
-    B. false
+    * B. false
         * strings are compared in lexicographical order, `'1'` comes before `'2'`
-    C. true
+    * C. true
         * compares the values of different types and the string `'2'` becomes the number `2`
-    D. false
+    * D. false
         * strict equality checks equality without converting the types, and `2` is a number and `'2'` is a string
-    E. false
+    * E. false
         * `true` converts to the number `1` which is not equal to `2`
-    F. true
+    * F. true
         * `Boolean(2)` is `true` (since `2` is not an empty value) which is equivalent to `true`
 15. `==` is regular equality, which converts operands of different types. `===` is strict equality that does not perform any type conversions.
 17. result: `[ 2, 4, 6 ]`. The array `[1, 2, 3]` and the function `doSomething` are passed in as parameters to `modifyArray`. In the for loop, the value returned by `doSomething`, which is twice the original value, is pushed to the new array. The new array is then returned.
