@@ -59,7 +59,9 @@
     * F. true
         * `Boolean(2)` is `true` (since `2` is not an empty value) which is equivalent to `true`
 15. `==` is regular equality, which converts operands of different types. `===` is strict equality that does not perform any type conversions.
+16. see js file
 17. result: `[ 2, 4, 6 ]`. The array `[1, 2, 3]` and the function `doSomething` are passed in as parameters to `modifyArray`. In the for loop, the value returned by `doSomething`, which is twice the original value, is pushed to the new array. The new array is then returned.
+18. see js file
 19. 
 ```js
 1
